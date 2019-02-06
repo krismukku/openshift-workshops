@@ -59,7 +59,7 @@ function wmataJsonToGeoJson(jsonData) {
 }
 
 //-----------------------------------------------------------------------------
-/* GET home page. */
+/* GET home page. test*/
 router.get('/', function(req, res, next) {
   res.render('dcmetro', { title: 'DC Metro Stations', BEERME: BEERME });
 });
